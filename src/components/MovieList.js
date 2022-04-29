@@ -25,13 +25,12 @@ const MovieList = ({
 						<p className="card-text">
 							<span>Year of Release:</span> {movie.Year}
 						</p>
-						<a
-							href="#"
+						<button
 							className={`btn btn-${btnColor}`}
 							onClick={() => handleFavoritesClick(movie)}
 						>
 							{btnText} {icon}
-						</a>
+						</button>
 					</div>
 				</div>
 			))}
